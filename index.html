@@ -1,0 +1,41 @@
+<!-- background divs -->
+<div id = "backgroundTop"></div>
+<div id = "backgroundBottom"></div>
+
+<!--<div id = "clickerButton" onclick = "clickerFunc()">Get some random drops!</div>
+
+<p id = "itemNum">Backpack Value: 0 weapons and 0 scrap.</p>-->
+
+<!-- Tab links -->
+  <div class="tab" id="mechanicTabBlock">
+    <button class="tablinks" id="tabButton" onclick = "openTab(event, 'building');">Buildings</button>
+    <button class="tablinks" onclick = "openTab(event, 'upgrade');">Upgrades</button>
+    <button class="tablinks" onclick = "openTab(event, 'option');">Options</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="building" class="tabcontent" >
+    <div class="unitDivs" onclick = "idleUnit('UNIT_0', 0)">
+    <h3 class="divTitle">Thailandese Children</h3>
+    <p class="divDescription">Promise to send money to them if they farm weapons for you. Their services are surprisingly cheap.</p>
+    </div>
+    <div class="unitDivs" onclick = "idleUnit('UNIT_1', 0)">UNIT 1</div>
+    <div class="unitDivs" onclick = "idleUnit('UNIT_2', 0)">UNIT 2</div>
+    <div class="unitDivs" onclick = "idleUnit('UNIT_3', 0)">UNIT 3</div>
+  </div>
+
+  <div id="upgrade" class="tabcontent"> 
+    <div class="upgradeDivs" onclick = "idleUnit('UPGRADE_0', 0)">UPGRADE 0</div>
+    <div class="upgradeDivs" onclick = "idleUnit('UPGRADE_1', 0)">UPGRADE 1</div>
+    <div class="upgradeDivs" onclick = "idleUnit('UPGRADE_2', 0)">UPGRADE 2</div>
+    <div class="upgradeDivs" onclick = "idleUnit('UPGRADE_3', 0)">UPGRADE 3</div>
+  </div>
+
+  <div id="option" class="tabcontent">
+    <div class="optionDivs" onclick = "idleUnit('OPTION_0', 0)">OPTION 0</div>
+  </div>
+
+<!-- references to external js and css files -->
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<script type="text/javascript" src="index.js"></script>

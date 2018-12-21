@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    background-color: #2E2B2A
+}
+
+#backgroundTop {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 92px;
+    z-index: 0;
+    background-image:  url(images/background/background_top.png);
+}
+
+#backgroundBottom {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 92px;
+    z-index: 0;
+    background-image:  url(images/background/background_bottom.png);
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    position: absolute;
+    left: 8px;
+    height: 37px;
+    z-index: 2;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    float: left;
+    cursor: pointer;
+    padding: 8px 25px;
+    border: 3px solid #84756B;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px 8px 0px 8px;
+    z-index: 1;
+    color: #FFFFFF;
+    background-color: #2E2B2A;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #504b49
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    outline: 0;
+    border-bottom-color: #2E2B2A;
+} 
+
+/* Style the tab content */
+.tabcontent {
+    display: none;    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    border: none;
+    border-right: 3px solid #84756B ;
+    z-index: -1;
+    color: #FFFFFF;
+}
+
+.unitDivs {
+    height: 92px;
+    width: inherit;
+    padding: 8px 8px;
+    border-bottom: 3px solid #84756B;
+    z-index: 2;
+}
+
+.upgradeDivs {
+    height: 92px;
+    width: inherit;
+    padding: 8px 8px;
+    border-bottom: 3px solid #84756B;
+    z-index: 2;
+}
+
+.divTitle {
+    margin: 16px;
+    margin-left: 0px;
+}
+
+.divDescription {
+
+}
+
+#itemNum {
+    position: absolute;
+    left: 250px;
+    color: #FFFFFF;
+}
+
+#clickerButton {
+    position: absolute;
+    height: 72px;
+    border: 2px solid #ccc ;
+    color: #FFFFFF;
+}
